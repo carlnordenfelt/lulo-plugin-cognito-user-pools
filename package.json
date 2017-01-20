@@ -1,6 +1,6 @@
 {
   "name": "lulo-plugin-cognito-user-pools",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "scripts": {
     "lint": "eslint src tests",
     "test-unit": "NODE_ENV=TEST istanbul cover --include-all-sources true -x src/**/cfn-response.js -i \"src/**/*.js\" node_modules/.bin/_mocha ./tests/unit -- --recursive",
@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/carlnordenfelt/lulo-plugin-cognito-user-pools",
   "dependencies": {
-    "aws-sdk": "2.7.16"
+    "aws-sdk": "2.7.26"
   },
   "devDependencies": {
     "chai": "3.5.0",
